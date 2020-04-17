@@ -1,0 +1,7 @@
+<p>Company's Vacancies</p>
+
+<ul *ngIf="companyVacancies.vacancies">
+  <li *ngFor="let vacancy of companyVacancies.vacancies">
+    {{vacancy.name}}
+  </li>
+</ul>
